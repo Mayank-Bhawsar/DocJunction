@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-0oko35kk7-rhue4+)$=(r!0*xuam#68+(1j$)++@do)p(d^0@x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app' , '.now.sh']
+# NotesSharingWebsite/settings.py
+
+# Add '127.0.0.1' to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh']
+
 
 
 # Application definition
